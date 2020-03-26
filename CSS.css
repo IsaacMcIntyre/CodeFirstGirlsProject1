@@ -1,0 +1,158 @@
+body {
+    background-color: rgb(92, 179, 220);
+}
+​
+h1 {
+    background-color: gray;
+    margin: 100px 0px;    
+    text-align: center;
+    
+}
+
+#foot {
+    width: 100%;
+    margin-top: 500px;
+    padding-top: 100px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: auto;
+    font-family: "Source Sans Pro",sans-serif;
+    text-align: center;
+    font-size: 80%;
+    background-color: rgb(92, 179, 220);
+}
+​
+.form-control {
+    margin-top: 5px;
+    margin-bottom:5px;
+}
+​
+td {
+    align-content: center;
+}
+​
+h2 {
+    margin: 16px 0;
+}
+​
+.events {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 16px;
+}
+​
+.event img {
+    max-width: 100%;
+    border-radius: 4px;
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 8px;
+}
+​
+.media img {
+    max-width: 400px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 4px;
+}
+​
+.media:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.container {
+    overflow: hidden;
+  }
+
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: rgb(92, 179, 220);
+    padding: 20px;
+    font-family: Arial;
+  }
+  
+  /* Center website */
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    display: none; /* Hide columns by default */
+    
+  }
+  
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+  
+  /* Style the buttons */
+  .btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: rgb(184, 184, 184);
+    cursor: pointer;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .btn:hover {
+    background-color: rgb(133, 133, 133);
+  }
+  
+  /* Add a dark background color to the active button */
+  .btn.active {
+    background-color: #666;
+     color: white;
+  }
+
+  .hcolumn {
+    float: left;
+    width: 33.33%;
+    display: flex;
+  }
+
+  .hrow,
+  .hrow > .hcolumn {
+    padding: 8px;
+  }

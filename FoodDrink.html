@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <title>Visit Calderdale - Food & Drink
+    </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="CSS.css" rel="stylesheet">
+    <script src="Javascript.js"></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Visit Calderdale</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="Home.html">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="About.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="PlacestoVisit.html">Places to Visit</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="FoodDrink.html">Food & Drink<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Events.html">Events</a>
+            </li>
+        </div>
+      </nav>
+</body>
+<br>
+<h2>Food & Drink</h2>  
+<br>
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('CF')"> Calderdale Favourites</button>
+  <button class="btn" onclick="filterSelection('CHF')"> Child Friendly</button>
+  <button class="btn" onclick="filterSelection('FD')"> Fine Dining</button>
+  <button class="btn" onclick="filterSelection('GF')"> Vegan, Gluten-Free & Dairy-Free</button>
+  <button class="btn" onclick="filterSelection('P')"> Pubs</button>
+  <button class="btn" onclick="filterSelection('NL')"> Nightlife </button>
+</div>
+  <!-- Portfolio Gallery Grid -->
+  <div class="row">
+    <div class="column CF">
+      <div class="content">
+        <img src="https://i1.wp.com/metro.co.uk/wp-content/uploads/2019/12/Ext_VeganPerinaise_PotChips-caf8.jpg?quality=90&strip=all&zoom=1&resize=644%2C429&ssl=1" alt="Nandos" style="width:100%">
+        <h4>Calderdale Favourites</h4>
+        <p>Nandos <br> TGIs <br> Pizza Express</p>
+      </div>
+    </div>
+    <div class="column CHF">
+      <div class="content">
+        <img src="https://www.scotsman.com/images-e.jpimedia.uk/imagefetch/http://www.scotsman.com/webimage/Prestige.Item.1.59919000!image/image.jpg?crop=982:524,smart&width=990" alt="child" style= "width:100%">
+        <h4>Child Friendly</h4>
+        <p>Frankie & Benny's <br> Pizza Hut <br> Hard Rock Cafe </p>
+      </div>
+    </div>
+    <div class="column FD">
+      <div class="content">
+        <img src="https://images.buyagift.co.uk/common/client/Images/Product/Extralarge/en-GB/10770745-extralarge-Sindhu.jpg" alt="dining" style="width:100%">
+        <h4>Fine Dining</h4>
+        <p>The Sushi House <br> Seafood Resturant <br> Mary's Thai and Indian Cuisine </p>
+      </div>
+    </div>
+  
+    <div class="column GF">
+      <div class="content">
+        <img src="https://foodanddrink.scotsman.com/wp-content/uploads/2017/07/DSC0480-10-750x400.jpg" alt="gluten free" style="width:100%">
+        <h4>Vegan, Gluten-Free & Dairy-Free</h4>
+        <p>Wagamamas <br> Vegan Buffet Ltd <br> Sally's Dairy Free Ice Cream Parlour </p>
+      </div>
+    </div>
+
+    <div class="column P">
+      <div class="content">
+        <img src="https://www.jdwetherspoon.com/~/media/images/pubs/6399/6399_bar.jpg?w=855&crop=1&cropx=50&cropy=50&hash=43652100ACD461DF245C3E8018785145F4619F54" alt="Pub" alt="Car" style="width:100%">
+        <h4>Pubs</h4>
+        <p> Wetherspoons <br> Stodfold <br> Victorian Craft Beer Cafe </p>
+      </div>
+    </div>
+
+    <div class="column NL">
+      <div class="content">
+        <img src="https://i2-prod.examinerlive.co.uk/incoming/article12115551.ece/ALTERNATES/s615/JS103948770.jpg" alt="Nightlife" style="width:100%">
+        <h4>Night Life</h4>
+        <p> Acapulco <br> Atik </p>
+      </div>
+    </div>
+    
+  <!-- END GRID -->
+  </div>    
+</html>
